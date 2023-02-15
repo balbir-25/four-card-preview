@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins";
+  min-height: 100vh;
+  justify-content: center;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.card {
+  margin-top: 80px;
+}
+
+/* =====================================START INFO DIV============================================= */
+
+.info {
+  width: 530px;
+  margin-left: 400px;
+}
+
+.info-h1 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  color: hsl(229, 6%, 66%);
+}
+
+.info-h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  color: hsl(234, 12%, 34%);
+  margin-top: 20px;
+}
+
+.info-para {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28px;
+  color: hsl(229, 6%, 66%);
+  margin-top: 20px;
+}
+
+/* ===============================END INFO DIV=================================================== */
+
+/* ===============================START FOUR DIV============================================= */
+
+.four {
+  margin-left: 50px;
+}
+
+.four-card {
+  width: 380px;
+  height: 280px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  margin: 10px;
+  text-align: start;
+}
+
+.four-h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  color: hsl(234, 12%, 34%);
+  margin-top: 20px;
+}
+
+.four-para {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28px;
+  color: hsl(229, 6%, 66%);
+  margin-top: 20px;
+  width: 300px;
+}
+
+.four-img {
+  margin: 20px;
+  margin-left: 250px;
+}
+
+/* =====================================START FOUR CARD PERSONAL NAME DIV========================== */
+
+.sup {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  margin-top: 250px;
+}
+
+.team {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  margin-left: 410px;
+  margin-top: -400px;
+}
+
+.kar {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  margin-left: 410px;
+  margin-top: 30px;
+}
+
+.cal {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  margin-left: 810px;
+  margin-top: -470px;
+}
+
+/* =====================================END FOUR CARD PERSONAL NAME DIV========================== */
+
+/* ===============================END FOUR DIV============================================= */
+
+/* =================================START FOOTER AREA======================================== */
+
+.foot {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 20px;
+  color: hsl(229, 23%, 23%);
+  margin-top: 120px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.foot a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+/* =================================END FOOTER AREA======================================== */
+
+/* =====================================START MEDIA QUERRY==================================== */
+
+@media screen and (max-width: 768px) {
+  .info {
+    margin-left: 100px;
+    text-align: start;
+  }
+
+  .info-para{
+    width: 350px;
+  }
+
+  .four {
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: start;
+    justify-content: start;
+  }
+
+  .sup {
+    margin-top: 20px;
+  }
+
+  .team,
+  .cal,
+  .kar {
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+}
